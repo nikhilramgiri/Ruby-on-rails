@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.4', require: false
+gem 'bootsnap', '>= 1.4.6', require: false
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
@@ -39,6 +39,9 @@ group :development do
   # Display performance information such as SQL time and flame graphs for each request in your browser.
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
   gem 'rack-mini-profiler', '~> 2.0'
+  ​gem 'listen',                '3.2.1'
+  ​gem 'spring',                '2.1.1'
+ ​ gem 'spring-watcher-listen', '2.0.1'
 end
 
 group :test do
